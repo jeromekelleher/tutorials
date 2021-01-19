@@ -3,7 +3,7 @@
 
 all:
 	# Catch warnings for development
-	jupyter-book build -W -n --keep-going .
+	jupyter-book build -v -W -n --keep-going .
 
 clean:
 	rm -fR _build

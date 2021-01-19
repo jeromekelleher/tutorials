@@ -40,7 +40,7 @@ import seaborn as sns
 import multiprocessing
 import matplotlib.pyplot as plt
 
-from IPython.display import SVG
+rom IPython.display import SVG
 ```
 
 ```{code-cell} ipython3

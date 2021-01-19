@@ -5,8 +5,6 @@ title: Tskit Tutorial
 author: Tskit Developers
 # logo: logo.png
 
-# Force re-execution of notebooks on each build.
-# See https://jupyterbook.org/content/execute.html
 execute:
   execute_notebooks: cache
 

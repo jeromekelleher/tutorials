@@ -25,7 +25,10 @@ jobs:
     # Build the book
     - name: Build the book
       run: |
-        jupyter-book build -W -n --keep-going .
+        # Would like to run in nitpicky warn mode here, but we lose the
+        # ability debug because the log files don't get saved. Doesn't
+        # seem to be any way to output the error directly in jupyterbook.
+        jupyter-book build .
 
     # Push the book's HTML to github-pages
     - name: GitHub Pages action
